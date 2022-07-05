@@ -5,18 +5,21 @@ html {
     margin: 0;
 }
 
-.header-title {
+.title-text {
     font-weight: 700;
+    font-size: 350%;
 }
 
 .hader {
     background-image: url(donate-today-main/images/donation13.jpg);
+    background-image: linear-gradient(bottom black gray);
     background-repeat: no-repeat;
     background-size: cover;
     height: 70%;
     position: relative;
     margin: 0px;
 }
+
 
 .donate-here {
     text-decoration: none;
@@ -37,4 +40,44 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#donate-today {
+    margin: 120px;
+}
+
+.donate-section {
+    text-align: center;
+}
+
+.amount-button {
+    background-color: #f3f2f2;
+    padding: 30px 30px;
+    color: black;
+    font-weight: 700;
+    border: none;
+    font-size: 200%;
+    text-align: center;
+}
+
+.defult-select {
+    border: 2px solid tomato;
+    color: tomato;
+    background-color: #fdd3cb;
+}
+
+.center {
+    margin: 5px;
+    text-align: center;
+
+}
+
+.input-field {
+    margin: 50px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    font-size: 22px;
 }
