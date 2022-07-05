@@ -1,0 +1,40 @@
+body,
+html {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+.header-title {
+    font-weight: 700;
+}
+
+.hader {
+    background-image: url(donate-today-main/images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70%;
+    position: relative;
+    margin: 0px;
+}
+
+.donate-here {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+
+
+}
+
+.text-center {
+    Text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
