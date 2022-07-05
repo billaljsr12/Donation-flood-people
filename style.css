@@ -81,3 +81,22 @@ html {
     text-align: center;
     font-size: 22px;
 }
+
+.footer-hadding {
+    font-family: bangers;
+    color: red;
+    margin: 10px;
+
+}
+
+.footer-set {
+    background: black;
+    height: 50%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.footer-p {
+    font-size: 10px;
+}
