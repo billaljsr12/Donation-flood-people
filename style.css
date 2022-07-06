@@ -5,10 +5,7 @@ html {
     margin: 0;
 }
 
-.title-text {
-    font-weight: 700;
-    font-size: 350%;
-}
+
 
 .hader {
     background-image: url(images/donation13.jpg);
@@ -20,6 +17,11 @@ html {
     margin: 0px;
 }
 
+.title-text {
+    font-weight: 700;
+    font-size: 350%;
+}
+
 
 .donate-here {
     text-decoration: none;
@@ -28,9 +30,6 @@ html {
     border-radius: 5px;
     color: white;
     font-weight: 700;
-
-
-
 }
 
 .text-center {
@@ -41,6 +40,7 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 #donate-today {
     margin: 120px;
@@ -66,7 +66,7 @@ html {
     background-color: #fdd3cb;
 }
 
-.center {
+.center-donate {
     margin: 5px;
     text-align: center;
 
@@ -85,24 +85,6 @@ html {
 
 }
 
-.footer-hadding {
-    font-family: bangers;
-    color: red;
-    margin: 10px;
-
-}
-
-.footer-set {
-    background: black;
-    height: 50%;
-    width: 100%;
-    color: white;
-    text-align: center;
-}
-
-.footer-p {
-    font-size: 10px;
-}
 
 .three-donate-plans {
     text-align: center;
@@ -137,6 +119,26 @@ html {
     background-color: rgb(253, 227, 193);
     padding: 20px;
     text-align: left;
+}
+
+.contibute-section {
+    display: flex;
+    margin: 100px;
+}
+
+.contibute-area {
+    width: 50%;
+    padding-left: 80px;
+}
+
+.contibute-header {
+    font-size: 300%;
+}
+
+.contibute-area img {
+    width: 80%;
+    height: 100%;
+
 }
 
 .our-update {
@@ -183,4 +185,23 @@ html {
 
 .div-hide {
     background-color: white;
+}
+
+.footer-hadding {
+    font-family: cursive;
+    color: red;
+    margin: 10px;
+
+}
+
+.footer-set {
+    background: black;
+    height: 50%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.footer-p {
+    font-size: 10px;
 }
