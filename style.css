@@ -70,16 +70,19 @@ html {
     margin: 5px;
     text-align: center;
 
+
 }
 
 .input-field {
     margin: 50px;
-    width: 100%;
+    width: 90%;
     border: 0;
     outline: 0;
     border-bottom: 1px solid gray;
     text-align: center;
     font-size: 22px;
+
+
 }
 
 .footer-hadding {
@@ -99,4 +102,85 @@ html {
 
 .footer-p {
     font-size: 10px;
+}
+
+.three-donate-plans {
+    text-align: center;
+}
+
+.donate-hedding {
+    font-size: 300%;
+}
+
+.donate-plan {
+
+    padding: 40px 40px;
+    display: flex;
+}
+
+.plan-1 {
+    margin: 5px 5px;
+    background-color: rgb(229, 243, 248);
+    padding: 20px;
+    text-align: left;
+}
+
+.plan-2 {
+    margin: 5px 5px;
+    background-color: rgb(255, 217, 216);
+    padding: 20px;
+    text-align: left;
+}
+
+.plan-3 {
+    margin: 5px 5px;
+    background-color: rgb(253, 227, 193);
+    padding: 20px;
+    text-align: left;
+}
+
+.our-update {
+    text-align: center;
+
+}
+
+.uapdate-h {
+    font-size: 300%;
+}
+
+.input-email {
+    border-radius: 3px;
+    height: 20px;
+    border-color: 2px solid gray;
+
+}
+
+.email-submit {
+    background-color: #f36730;
+    color: white;
+    font-weight: 700;
+    margin-left: -6px;
+    height: 26px;
+}
+
+.email-area {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.email-subs {
+    background-color: #f5d9cc;
+    height: 10px;
+    width: 1000px;
+    border: none;
+    font-weight: 700;
+    color: white;
+    padding: 100px;
+
+}
+
+.div-hide {
+    background-color: white;
 }
